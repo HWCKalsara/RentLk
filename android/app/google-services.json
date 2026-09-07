@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582718313804",
+    "project_id": "rent-7420d",
+    "storage_bucket": "rent-7420d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582718313804:android:1d8c090e0ab73517fb6be9",
+        "android_client_info": {
+          "package_name": "com.example.rent_lk_flutter_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdhKJKkxZ_Vaz5PWTsuhqfdUWWV6zMzh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

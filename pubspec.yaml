@@ -1,0 +1,30 @@
+name: rent_lk_flutter_application
+description: Rent.lk Vehicle Rental Management System - Flutter mobile application for Sri Lanka.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^6.5.0
+  firebase_core: ^4.10.0
+  flutter:
+    sdk: flutter
+
+  # මෙම project එක Flutter SDK dependency විතරක් පාවිච්චි කරන නිසා install කිරීම සරලයි.
+  # Icons සඳහා Material Icons පාවිච්චි කරලා තියෙනවා. Emojis භාවිතා කරලා නැහැ.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+# App Icon එක සකස් කිරීම
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/icon/app_icon.png"

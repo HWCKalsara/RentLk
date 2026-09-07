@@ -1,0 +1,14 @@
+White screen fix කරලා තියෙන version එක.
+
+Run කරන්න:
+1. මේ folder එක open කරන්න: rent_lk_flutter_application
+2. මෙහි pubspec.yaml තියෙනවාද බලන්න.
+3. RUN_THIS_WEB_FIXED.bat double click කරන්න.
+
+Terminal command:
+cd C:\Users\User\Downloads\rent_lk_flutter_application
+flutter clean
+flutter pub get
+flutter run -d chrome
+
+සටහන: කලින් OLD project folder එකක් තියෙනවා නම් delete/rename කරලා මේ fixed folder එක use කරන්න.

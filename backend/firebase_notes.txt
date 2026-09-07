@@ -1,0 +1,23 @@
+Rent.lk Firebase Connection Notes
+
+Flutter app එක Firebase එකකට connect කරන්න:
+
+1. Firebase Console එකේ project එකක් create කරන්න.
+2. Android app package name එක add කරන්න.
+3. google-services.json file එක android/app/ folder එකට දාන්න.
+4. firebase_core, firebase_auth, cloud_firestore packages add කරන්න.
+5. RentStore class එක Firebase service calls වලට replace කරන්න.
+
+Recommended collections:
+- users
+- vehicles
+- bookings
+- payments
+- notifications
+
+Security rules:
+- customer: තමන්ගේ bookings/payments/notifications පමණක් read කරන්න.
+- owner: තමන්ගේ vehicles, bookings and earnings manage/view කරන්න.
+- staff: bookings/payments update කරන්න.
+- admin: all records manage කරන්න.
+

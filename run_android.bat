@@ -1,0 +1,9 @@
+@echo off
+echo Rent.lk Flutter Application Runner
+echo Generating platform files...
+flutter create . --platforms=android,ios,web
+echo Getting packages...
+flutter pub get
+echo Running app...
+flutter run
+pause
